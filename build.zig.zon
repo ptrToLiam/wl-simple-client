@@ -1,0 +1,19 @@
+.{
+    .name = .wl_simple_client,
+    .version = "0.0.0",
+    .minimum_zig_version = "0.16.0-dev.2471+e9eadee00",
+    .fingerprint = 0xe6fb6be6c7f406f6,
+    .dependencies = .{
+        .wayland_protocol_codegen = .{
+            .url = "git+https://github.com/ptrToLiam/wayland-protocol-codegen#7fbd0518fe5f2826f80bb1205066fdbdf61688c9",
+            .hash = "wayland_protocol_codegen-0.0.0-Qh8GvO8bAQB6Vb783fZe2lR_AE-gzrwrSEhN_PpDyZDL",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+        "src",
+    },
+}
